@@ -1,11 +1,11 @@
 {
-  "name": "bitcore-node-zcash",
-  "description": "Full node with extended capabilities using Bitcore and Zcash",
+  "name": "bitcore-node-btcp",
+  "description": "Full node with extended capabilities using Bitcore and btcp",
   "author": "BitPay <dev@bitpay.com>",
   "version": "3.1.2",
   "main": "./index.js",
-  "repository": "git://github.com/str4d/bitcore-node-zcash.git",
-  "homepage": "https://github.com/str4d/bitcore-node-zcash",
+  "repository": "git://github.com/interbiznw-btcpcontrib/bitcore-node-btcp.git",
+  "homepage": "https://github.com/interbiznw-btcpcontrib/bitcore-node-btcp",
   "bugs": {
     "url": "https://github.com/bitpay/bitcore-node/issues"
   },
@@ -41,13 +41,13 @@
     "coveralls": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- --recursive -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "tags": [
-    "zcash",
-    "zcashd"
+    "btcp",
+    "btcpd"
   ],
   "dependencies": {
     "async": "^1.3.0",
     "bitcoind-rpc": "^0.6.0",
-    "bitcore-lib-zcash": "str4d/bitcore-lib-zcash",
+    "bitcore-lib-btcp": "interbiznw-btcpcontrib/bitcore-lib-btcp",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
