@@ -69,7 +69,7 @@
   },
   "devDependencies": {
     "benchmark": "1.0.0",
-    "bitcore-p2p": "^1.1.0",
+    "bitcore-p2p-btcp": "BTCP-community/bitcore-p2p-btcp#1.1.1",
     "chai": "^3.5.0",
     "coveralls": "^2.11.9",
     "istanbul": "^0.4.3",
