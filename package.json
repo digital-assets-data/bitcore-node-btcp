@@ -4,10 +4,10 @@
   "author": "BitPay <dev@bitpay.com>",
   "version": "3.1.2",
   "main": "./index.js",
-  "repository": "git://github.com/interbiznw-btcpcontrib/bitcore-node-btcp.git",
-  "homepage": "https://github.com/interbiznw-btcpcontrib/bitcore-node-btcp",
+  "repository": "git://github.com/BTCPrivate/bitcore-node-btcp.git",
+  "homepage": "https://github.com/BTCPrivate/bitcore-node-btcp",
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore-node/issues"
+    "url": "https://github.com/BTCPrivate/bitcore-node-btcp/issues"
   },
   "contributors": [
     {
@@ -47,7 +47,7 @@
   "dependencies": {
     "async": "^1.3.0",
     "bitcoind-rpc": "^0.6.0",
-    "bitcore-lib-btcp": "interbiznw-btcpcontrib/bitcore-lib-btcp",
+    "bitcore-lib-btcp": "BTCPrivate/bitcore-lib-btcp",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
@@ -69,7 +69,7 @@
   },
   "devDependencies": {
     "benchmark": "1.0.0",
-    "bitcore-p2p": "^1.1.0",
+    "bitcore-p2p-btcp": "BTCP-community/bitcore-p2p-btcp#1.1.1",
     "chai": "^3.5.0",
     "coveralls": "^2.11.9",
     "istanbul": "^0.4.3",
