@@ -4,10 +4,10 @@
   "author": "BitPay <dev@bitpay.com>",
   "version": "3.1.2",
   "main": "./index.js",
-  "repository": "git://github.com/BTCPrivate/bitcore-node-btcp.git",
-  "homepage": "https://github.com/BTCPrivate/bitcore-node-btcp",
+  "repository": "git://github.com/digital-assets-data/bitcore-node-btcp.git",
+  "homepage": "https://github.com/digital-assets-data/bitcore-node-btcp",
   "bugs": {
-    "url": "https://github.com/BTCPrivate/bitcore-node-btcp/issues"
+    "url": "https://github.com/digital-assets-data/bitcore-node-btcp/issues"
   },
   "contributors": [
     {
